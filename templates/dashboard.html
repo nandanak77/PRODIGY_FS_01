@@ -1,0 +1,6 @@
+<h1>Hello, {{ name }}!</h1>
+<p>Your role is: {{ role }}</p>
+{% if role == 'admin' %}
+    <a href="/admin">Go to Admin Page</a><br>
+{% endif %}
+<a href="/logout">Logout</a>
